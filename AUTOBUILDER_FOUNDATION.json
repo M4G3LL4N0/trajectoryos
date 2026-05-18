@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "project_folder": "/Users/joshuadavis/startups/trajectoryos",
+  "startup_name": "TrajectoryOS",
+  "aliases": ["trajectoryos", "Trajectory OS", "TOS"],
+  "domain": null,
+  "category": "Deep tech / Aerospace software / Mission engineering",
+  "stage": "pre_seed_landing_mvp",
+  "one_line_description": "AI-native mission computation layer for space, physics, aerospace, robotics, and engineering teams.",
+  "target_users": [
+    "space startups",
+    "satellite teams",
+    "aerospace engineers",
+    "university mission labs",
+    "robotics teams",
+    "scientific R&D teams",
+    "advanced engineering teams",
+    "defense-adjacent engineering teams"
+  ],
+  "core_problem": "Mission and physics calculations are fragmented across spreadsheets, scripts, simulation tools, legacy calculators, and tacit expert knowledge.",
+  "core_solution": "One premium workspace for mission calculations, physics workflows, assumption tracking, trade studies, and decision-ready outputs.",
+  "differentiation": "Mission computation operating layer—not a disposable calculator; traceability, scenarios, and brief-ready exports as first-class.",
+  "mvp_scope": {
+    "shipped_in_repo": [
+      "Investor-ready marketing landing (Next.js App Router)",
+      "Static early-access CTA form UI (placeholder submit)"
+    ],
+    "roadmap_not_shipped": [
+      "MVP calculators: orbital, mass, power, thermal, comms",
+      "AI-guided mission brief generation",
+      "Scenario comparison and sensitivity analysis",
+      "Python/API export",
+      "Enterprise traceability, permissions, private deployment"
+    ]
+  },
+  "website": {
+    "primary_route": "/",
+    "sections": [
+      "header",
+      "hero",
+      "mission_dashboard_preview",
+      "product_positioning",
+      "feature_cards",
+      "how_it_works",
+      "use_cases",
+      "roadmap",
+      "cta",
+      "footer"
+    ],
+    "tone": "Premium dark aerospace, mission control, glass panels, cyan/slate/violet/emerald accents"
+  },
+  "product": {
+    "features_marketed": [
+      "Trajectory analysis",
+      "Physics calculation layer",
+      "AI mission co-pilot",
+      "Traceable decision logic",
+      "Scenario comparison",
+      "Mission brief generation"
+    ],
+    "engineering_truth": "Interactive calculators and backend persistence are roadmap unless implemented in source."
+  },
+  "design_system": {
+    "mode": "dark",
+    "primary": "cyan",
+    "neutrals": "slate",
+    "accents": ["violet", "emerald"],
+    "avoid": ["cartoon space themes", "generic SaaS card templates", "unreadable neon", "clutter"]
+  },
+  "technical_stack": {
+    "runtime": "Node.js",
+    "framework": "Next.js 15 App Router",
+    "language": "TypeScript",
+    "styles": "Tailwind CSS v4",
+    "package_manager": "pnpm",
+    "icons": "lucide-react",
+    "animation": "none by default; framer-motion optional if justified",
+    "deploy_target": "Vercel (manual prod only)"
+  },
+  "important_files": [
+    "package.json",
+    "pnpm-lock.yaml",
+    "next.config.ts",
+    "tsconfig.json",
+    "postcss.config.mjs",
+    "app/layout.tsx",
+    "app/page.tsx",
+    "app/globals.css",
+    "components/landing/",
+    "README.md",
+    "RECOVERY_NOTES.md",
+    "AUTOBUILDER_FOUNDATION.json",
+    ".autobuilder/project-state.json",
+    ".autobuilder/next-actions.json",
+    ".autobuilder/guardrails.md",
+    ".env.example",
+    ".gitignore"
+  ],
+  "preserve": [
+    "Design direction and section order on the landing page unless intentionally rebranding",
+    "Product vs roadmap honesty in copy and README",
+    "pnpm as sole package manager",
+    "Autobuilder and recovery documentation"
+  ],
+  "do_not": [
+    "Use npm or yarn for installs",
+    "Deploy with vercel --prod or push to GitHub without explicit founder approval",
+    "Invent customers, logos, NASA/defense partnerships, or certifications",
+    "Expose private founder details or credentials in repo or public copy",
+    "Replace the site with a generic SaaS template",
+    "Delete recovery or autobuilder files without archiving"
+  ],
+  "autobuilder_strategy": "Land the narrative and visual system first; ship calculators and APIs in small vertical slices with tests; keep RECOVERY_NOTES and JSON state updated after each milestone.",
+  "cleanup_policy": "Ignore build artifacts and secrets via .gitignore; never delete source, configs, README, recovery notes, autobuilder files, or .env.example as part of cleanup.",
+  "last_recovery_summary": "Greenfield Next.js 15 + TS + Tailwind v4 landing for TrajectoryOS with full required sections, lucide-react icons, client-only CTA placeholder, and autobuilder foundation files."
+}

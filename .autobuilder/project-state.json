@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "project_folder": "/Users/joshuadavis/startups/trajectoryos",
+  "startup_name": "TrajectoryOS",
+  "last_updated": "2026-05-10T23:15:00-07:00",
+  "status": "active_development",
+  "build_status": "passing",
+  "deploy_status": "not_deployed",
+  "disk_status": "healthy",
+  "recent_changes": [
+    "Initialized Next.js 15 App Router project with Tailwind v4 and pnpm",
+    "Implemented full marketing landing page with required sections",
+    "Added Autobuilder foundation and recovery documentation",
+    "pnpm build passing; outputFileTracingRoot set to silence stray parent lockfile warning"
+  ],
+  "open_issues": [
+    "Early access form has no backend integration",
+    "No automated CI configured in repo",
+    "Calculators and authenticated app not yet implemented"
+  ],
+  "next_actions": [
+    "Run pnpm build and fix any regressions",
+    "Implement first orbital or mass budget calculator route",
+    "Wire early access to a real store or email pipeline"
+  ],
+  "last_agent_notes": "Marketing site only; treat calculator and API features as roadmap until code exists. Use pnpm exclusively."
+}

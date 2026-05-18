@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+
+  --color-void: #030712;
+  --color-panel: rgba(15, 23, 42, 0.55);
+  --color-cyan-glow: rgba(34, 211, 238, 0.12);
+  --color-violet-glow: rgba(167, 139, 250, 0.08);
+  --color-emerald-glow: rgba(52, 211, 153, 0.08);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-950 text-slate-100 antialiased;
+    background-image:
+      radial-gradient(ellipse 120% 80% at 50% -20%, var(--color-cyan-glow), transparent),
+      radial-gradient(ellipse 60% 50% at 100% 0%, var(--color-violet-glow), transparent),
+      radial-gradient(ellipse 50% 40% at 0% 100%, var(--color-emerald-glow), transparent);
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    @apply bg-cyan-500/30 text-white;
+  }
+}
+
+@utility glass-panel {
+  @apply border border-white/10 bg-white/[0.04] shadow-[0_0_0_1px_rgba(255,255,255,0.03)_inset] backdrop-blur-xl;
+}
+
+@utility grid-radial {
+  background-image: linear-gradient(rgba(148, 163, 184, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+}

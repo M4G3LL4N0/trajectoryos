@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "project_folder": "/Users/joshuadavis/startups/trajectoryos",
+  "prioritized_tasks": [
+    {
+      "rank": 1,
+      "title": "Validate clean production build",
+      "description": "Run pnpm install && pnpm build on a clean checkout; fix TypeScript, ESLint, and Tailwind issues; add CI if desired.",
+      "priority": "P0"
+    },
+    {
+      "rank": 2,
+      "title": "Add real mission calculators",
+      "description": "Ship MVP math for orbital parameters, mass budget, power budget, thermal sanity checks, and comms link margin with cited constants and unit tests.",
+      "priority": "P0"
+    },
+    {
+      "rank": 3,
+      "title": "Add mission brief generator UI",
+      "description": "Bounded UI that assembles a brief from workspace inputs; clearly label AI-assisted sections and require human confirmation before export.",
+      "priority": "P1"
+    },
+    {
+      "rank": 4,
+      "title": "Add SEO calculator pages",
+      "description": "Dedicated routes per calculator with metadata, OpenGraph, and structured data appropriate for engineering search intent.",
+      "priority": "P1"
+    },
+    {
+      "rank": 5,
+      "title": "Add early access capture",
+      "description": "Replace placeholder form with secure server action or API route + email/CRM integration; rate limit and validate email domains if needed.",
+      "priority": "P1"
+    }
+  ]
+}

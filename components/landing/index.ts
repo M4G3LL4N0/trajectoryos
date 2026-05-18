@@ -1,0 +1,10 @@
+export { Header } from "./Header";
+export { Hero } from "./Hero";
+export { DashboardPreview } from "./DashboardPreview";
+export { Positioning } from "./Positioning";
+export { Features } from "./Features";
+export { HowItWorks } from "./HowItWorks";
+export { UseCases } from "./UseCases";
+export { Roadmap } from "./Roadmap";
+export { CTA } from "./CTA";
+export { Footer } from "./Footer";
