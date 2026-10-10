@@ -1,153 +1,95 @@
-# TrajectoryOS
+# trajectoryos
 
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/hero-reduced.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero/hero-light.svg">
-    <img src="assets/hero/hero-motion.svg" alt="TrajectoryOS — animated project plate showing policy &rarr; control &rarr; evidence. Motion depicts this project's real state transition." width="100%">
-  </picture>
-</p>
+> Trajectory intelligence for ventures, markets, and strategic positioning. Built in TypeScript on Next.js. 15 routes (/about, /contact, /dashboard); 2 entry points (index.html, index.ts). PROTOTYPE. No test suite committed.
 
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/computational-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero/computational-light.svg">
-    <img src="assets/hero/computational-motion.svg" alt="State machine: policy &rarr; control &rarr; evidence." width="100%">
-  </picture>
-</p>
+The implementation summary below is intentionally conservative. Claims from NORTHSTAR are not presented as shipped functionality.
 
-**Mission-grade calculations for the frontier.**
+- [GitHub repository](https://github.com/M4G3LL4N0/trajectoryos)
+- [Project site](https://trajectoryos-public.vercel.app/)
 
-TrajectoryOS is an AI-native mission computation layer for space, physics, aerospace, robotics, and engineering teams. This repository contains the public marketing site (Next.js App Router).
+<!-- NOAERTH_IMAGE_SLOT: trajectoryos/hero -->
 
-## Stack
+## What it is
 
-- [Next.js](https://nextjs.org/) 15 (App Router)
-- TypeScript
-- [Tailwind CSS](https://tailwindcss.com/) v4
-- [pnpm](https://pnpm.io/) only
+Trajectory intelligence for ventures, markets, and strategic positioning. Built in TypeScript on Next.js. 15 routes (/about, /contact, /dashboard); 2 entry points (index.html, index.ts). PROTOTYPE. No test suite committed.
 
-## Commands
+This repository is part of the NOAERTH venture ecosystem. The current public-facing evidence identifies it as a prototype / active development rather than a production-ready system.
 
-```bash
+## Capabilities
+
+### Available evidence
+
+- The repository contains the implementation and documentation associated with the project description above.
+- The technology signals currently visible in the local project are listed in the technical notes below.
+- No additional capability is asserted here without a direct implementation reference.
+
+### Experimental or planned
+
+Roadmap intent is deliberately not represented as shipped functionality. Review NORTHSTAR and source implementation together before adding future-facing claims.
+
+<!-- NOAERTH_IMAGE_SLOT: trajectoryos/workflow -->
+
+## How it works
+
+The current evidence supports a repository-level application or tool workflow, but does not provide enough verified detail in the Part 1 record to publish a component-level architecture diagram. The architecture slot is reserved for a deterministic diagram after the source flow is reviewed.
+
+<!-- NOAERTH_IMAGE_SLOT: trajectoryos/architecture -->
+
+## Quick start
+
+### Prerequisites
+
+- A runtime suitable for `Node.js`.
+- A clean checkout of this repository.
+
+### Install
+
+```sh
 pnpm install
-pnpm dev
-pnpm build
-pnpm start
-pnpm lint
 ```
 
-## Project layout
+### Run locally
 
-| Path | Purpose |
-|------|---------|
-| `app/layout.tsx` | Root layout, fonts, metadata |
-| `app/page.tsx` | Landing page composition |
-| `app/globals.css` | Global styles, Tailwind, theme tokens |
-| `components/landing/` | Section components for the marketing page |
-| `RECOVERY_NOTES.md` | Agent / founder recovery context |
-| `AUTOBUILDER_FOUNDATION.json` | Machine-readable project memory |
-| `.autobuilder/` | Autobuilder state, next actions, guardrails |
-
-## Deployment (manual)
-
-Configure the project in the Vercel dashboard or CLI. Production deploy is **manual only** — do not automate `vercel --prod` from agents without explicit approval.
-
-```bash
-cd /Users/joshuadavis/startups/trajectoryos
-pnpm install
-pnpm build
-vercel --prod
+```sh
+pnpm run dev
 ```
 
-## Product truth
+### Build
 
-The live calculators, API export, and enterprise features described on the site are **roadmap** unless explicitly shipped in this repo. The landing page is investor- and partner-ready positioning, not a claim of shipped product scope beyond what exists in code.
+```sh
+pnpm run build
+```
 
-## License
+Commands are included only when they were detected in the repository manifest; verify environment-specific requirements before deployment.
 
-Proprietary — TrajectoryOS. All rights reserved.
+## Technical notes
 
-<!-- TRILLIONX:presentation:begin -->
+- **Primary language:** JavaScript/TypeScript
+- **Runtime:** Node.js
+- **Package manager:** pnpm
+- **Framework and integration signals:** Go, Next.js, Rust, Tailwind
+- **Entry-point signals:** package.json
+- **Test evidence:** TEST_PLAN.md
+- **Repository topics:** `react`, `typescript`, `app`, `components`, `dung30n5`, `next-js`, `noaerth`, `prototype`
 
-### Animated surfaces
+## Status and roadmap
 
-Generated from this repository's own source tree: every count, route and module below was measured, not written by hand.
+**Current status:** Prototype / active development.
 
-#### Identity
+**Current:** The repository and its documented implementation are available for inspection.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/hero-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/hero-light.svg">
-  <img alt="Identity diagram for trajectoryos" src="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/hero-motion.svg">
-</picture>
+**Next:** Reconcile the README, source behavior, and safe public product language before adding deeper examples or diagrams.
 
-#### Entry points
+**Future:** Product direction is maintained separately and must not be read as a shipped feature list.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/terminal-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/terminal-light.svg">
-  <img alt="Entry points diagram for trajectoryos" src="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/terminal-motion.svg">
-</picture>
+## Contributing and license
 
-#### Modules
+Follow the repository's existing contribution and licensing files where present. This README does not invent an open-source license or contribution policy.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/architecture-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/architecture-light.svg">
-  <img alt="Modules diagram for trajectoryos" src="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/architecture-motion.svg">
-</picture>
+## Visual documentation
 
-#### Routes
+Image slots are intentionally comments until authentic screenshots, deterministic diagrams, or approved conceptual visuals exist. No absent image file is referenced.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/data_flow-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/data_flow-light.svg">
-  <img alt="Routes diagram for trajectoryos" src="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/data_flow-motion.svg">
-</picture>
+## NOAERTH
 
-#### Composition
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/component_map-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/component_map-light.svg">
-  <img alt="Composition diagram for trajectoryos" src="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/component_map-motion.svg">
-</picture>
-
-#### Build and tests
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/build-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/build-light.svg">
-  <img alt="Build and tests diagram for trajectoryos" src="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/build-motion.svg">
-</picture>
-
-#### Identity object
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/footer-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/footer-light.svg">
-  <img alt="Identity object diagram for trajectoryos" src="https://raw.githubusercontent.com/M4G3LL4N0/trajectoryos/main/.github-art/surfaces/footer-motion.svg">
-</picture>
-
-<!-- TRILLIONX:presentation:end -->
-
-<!-- TRILLIONX:evidence:begin -->
-
-## What is measurable here
-
-Generated by `.github-art` from the source tree at publish time.
-
-| Signal | Value |
-| --- | --- |
-| HTTP routes | 15 |
-| Entry points | 2 |
-| Module roots | 3 |
-| Test files | 0 |
-| CI workflows | 0 |
-| Distinctive stack | scaffold only |
-| Status | PROTOTYPE |
-| Evidence confidence | E3 |
-| Animated surfaces | 7 |
-
-<!-- TRILLIONX:evidence:end -->
+[NOAERTH](https://www.noaerth.com) is the venture ecosystem associated with this project.
